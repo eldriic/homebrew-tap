@@ -3,7 +3,9 @@
 Homebrew casks for [eldriic](https://github.com/eldriic)'s apps.
 
 ```bash
-brew install --cask eldriic/tap/wisperkit
+brew tap eldriic/tap
+brew trust eldriic/tap
+brew install --cask wisperkit
 ```
 
 | Cask | Description |
